@@ -1,0 +1,118 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Set body background to a solid light, calming blue (Aqua/Cyan) */
+body {
+    font-family: "Gill Sans Extrabold", sans-serif;;
+    color: #333;
+    /* BACKGROUND HANYA WARNA (BIRU MUDA) */
+    background-color: #e0f7fa; /* Light Aqua / Cyan Muda */
+    line-height: 1.6;
+    padding: 40px;
+    /* Properti background-image, size, dan attachment dihapus */
+}
+
+/* Main heading for the page */
+h1 {
+    text-align: center;
+    /* WARNA JUDUL BIRU TUA */
+    color: #0d47a1; /* Biru Tua yang Profesional */
+    margin-bottom: 30px;
+    font-size: 2.8em;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: 900;
+    /* Text-shadow dihapus karena background solid tidak memerlukannya */
+}
+
+/* Container for the form to make it centered and structured */
+form {
+    max-width: 650px;
+    margin: 0 auto;
+    /* Background form putih solid agar input lebih jelas */
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(13, 71, 161, 0.15); /* Shadow biru tua */
+}
+
+/* Style fieldsets to group related form elements */
+fieldset {
+    border: 2px solid #b3e5fc; /* Border biru yang lebih cerah */
+    border-radius: 10px;
+    padding: 25px;
+    margin-bottom: 30px;
+    background-color: #f8fcfc;
+}
+
+/* Style the legend for each fieldset */
+legend {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #1565c0; /* Biru sedang */
+    padding: 0 15px;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+/* Style the list items and labels */
+li {
+    list-style-type: none;
+    margin-bottom: 18px;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+    color: #4a4a4a;
+}
+
+/* Style all input and select elements */
+input[type="text"], select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #aaa;
+    border-radius: 6px;
+    font-size: 1.05em;
+    transition: all 0.4s ease;
+}
+
+input[type="text"]:focus, select:focus {
+    border-color: #1565c0; /* Fokus warna biru sedang */
+    box-shadow: 0 0 8px rgba(21, 101, 192, 0.4);
+    outline: none;
+    background-color: #f5fbff;
+}
+
+/* Style the submit button */
+input[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #fff;
+    /* WARNA TOMBOL BIRU SEDANG */
+    background-color: #1e88e5; /* Biru yang kuat */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+input[type="submit"]:hover {
+    background-color: #0d47a1; /* Biru Tua saat hover */
+    transform: translateY(-2px);
+}
+
+/* Style for the <p> element wrapping the submit button */
+p {
+    text-align: center;
+    margin-top: 30px;
+}
